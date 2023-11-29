@@ -7,6 +7,7 @@
 ### Configuration de l'OS :
 
     setxkbmap fr 
+### Configuration des utilisateurs 
     adduser joey
         pswd : joey
     adduser alexis 
