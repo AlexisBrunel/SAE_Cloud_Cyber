@@ -11,7 +11,7 @@
     curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
     curl -sO https://packages.wazuh.com/4.7/config.yml
     nano config.yml
-        -> remplacer <indexer-node-ip> ; <indexer-node-ip> et <dashboard-node-ip> par l'ip serveur 10.202.0.162
+        -> remplacer <indexer-node-ip> et <dashboard-node-ip> par l'ip serveur 10.202.0.162
 
     sudo bash wazuh-install.sh --generate-config-files -i
 
