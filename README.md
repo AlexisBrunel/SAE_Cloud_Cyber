@@ -13,6 +13,20 @@
     https://github.com/users/AlexisBrunel/projects/1
 
 
+Installation de Wazuh	Ok 
+Installation de Elastic	Ok 
+Installation d’agent Wazuh	Ok 
+Installation d’agent Elastic	Ok 
+Automatisation d’installation d’agent	Ok 
+Installation de Splunk	Ok 
+Installation d’agent splunk	Ok 
+Installation d’Open WEC	Ok 
+Installation du GOAD vitualbox	Ok 
+Installation du Goad Proxmox	Ok 
+Attaque sur le GOAD	Ok 
+Détection dans les SIEM(s)	Ok 
+Mise en place d’un firewall 	Ok 
+![image](https://github.com/AlexisBrunel/SAE_Cloud_Cyber/assets/97045305/478a6d4f-1efb-43eb-ab70-8d1dfc83e516)
 
 
 
