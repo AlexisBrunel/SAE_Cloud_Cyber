@@ -18,6 +18,7 @@
 
 Installation de Wazuh	                Ok
 <br/>
+----
 Installation de Elastic                	Ok 
 <br/>
 Installation d’agent Wazuh            	Ok 
