@@ -146,7 +146,7 @@ Avec l'information des connexions valides :
 
 ![Alt text](img/ntlmv2.png)
 
-On rermarqie l'utilisation du compte brandon.stark
+On rermarque l'utilisation du compte brandon.stark
 
 
 Les règles Mittre utilisé  :T1550.002, T1078.002
