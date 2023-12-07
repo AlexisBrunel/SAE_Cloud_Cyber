@@ -19,13 +19,22 @@
     - Un dossier Livrables 
 
 #### Dossier Installation 
-    - Installation de Splunk
-    - Installation de Elastic
-    - Installation de Wazuh
-    - Mise en place des agents
-    - 
+    - Installation Splunk
+    - Installation Elastic
+    - Installation Wazuh
+    - Installation Openwec
+    - Ansible_agent
+    - Goad_Virtualbox
+    - Elastic agent déploiement 
+    - Installation d'un Kali linux pour la redteam
+    
 #### Dossier Blue Team 
+    - Détection des menances dans les siems 
 #### Dossier Red Team 
+    - Dossier Bloodhound
+    - Attaque sur le goad
+    
 #### Dossier livrable 
+    - Schéma réseau 
 
 
