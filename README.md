@@ -21,10 +21,13 @@ Installation de Wazuh	                Ok
 ----
 Installation de Elastic                	Ok 
 <br/>
+----
 Installation d’agent Wazuh            	Ok 
 <br/>
+----
 Installation d’agent Elastic	        Ok 
 <br/>
+----
 Automatisation d’installation d’agent	Ok 
 <br/>
 Installation de Splunk                	Ok 
@@ -35,14 +38,18 @@ Installation d’Open WEC                	Ok
 <br/>
 Installation du GOAD vitualbox	        Ok 
 <br/>
+----
 Installation du Goad Proxmox	        Ok 
 <br/>
+----
 Attaque sur le GOAD	                    Ok 
 <br/>
+----
 Détection dans les SIEM(s)             	Ok 
 <br/>
+----
 Mise en place d’un firewall 	        Ok 
-
+----
 ###  Points bloquant : 
 
 Nous n'avons pas eu assez de temps pour réaliser des tests sur Proxmox malgrès une infrastructure fonctionnelle.
