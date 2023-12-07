@@ -90,4 +90,9 @@ Difficulté aux niveaux des configurations OPENWEC.
 #### Dossier livrable 
     - Schéma réseau 
 
+## Organisation du projet  : 
+Un trello  : 
+Un project sur github : 
+Des dayly(s) en rapport avec les taches 
+
 
