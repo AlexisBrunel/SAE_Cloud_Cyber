@@ -1,7 +1,8 @@
 # SAE_Cloud_Cyber
 
-### Les ressources :  
 
+### Les ressources : 
+    
     Le sujet  :  
     https://github.com/pushou/SAE5.Cyber-Devcloud/blob/main/description.md
 
@@ -12,5 +13,19 @@
     https://github.com/users/AlexisBrunel/projects/1
 
 ### Les annexes : 
-    - Un dossier 
+    - Un dossier Installation 
+    - Un dossier Red Team 
+    - Un dossier Blue Team 
+    - Un dossier Livrables 
+
+#### Dossier Installation 
+    - Installation de Splunk
+    - Installation de Elastic
+    - Installation de Wazuh
+    - Mise en place des agents
+    - 
+#### Dossier Blue Team 
+#### Dossier Red Team 
+#### Dossier livrable 
+
 
