@@ -16,18 +16,30 @@
 
 ### Récapitilatif des réussites
 
-Installation de Wazuh	                Ok 
+Installation de Wazuh	                Ok
+<br/>
 Installation de Elastic                	Ok 
+<br/>
 Installation d’agent Wazuh            	Ok 
+<br/>
 Installation d’agent Elastic	        Ok 
+<br/>
 Automatisation d’installation d’agent	Ok 
+<br/>
 Installation de Splunk                	Ok 
+<br/>
 Installation d’agent splunk	            Ok 
+<br/>
 Installation d’Open WEC                	Ok 
+<br/>
 Installation du GOAD vitualbox	        Ok 
+<br/>
 Installation du Goad Proxmox	        Ok 
+<br/>
 Attaque sur le GOAD	                    Ok 
+<br/>
 Détection dans les SIEM(s)             	Ok 
+<br/>
 Mise en place d’un firewall 	        Ok 
 
 ###  Points bloquant : 
