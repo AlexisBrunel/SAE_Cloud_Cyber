@@ -1,5 +1,7 @@
 # SAE_Cloud_Cyber
-
+- Joey GALLIGANI
+- Ilker ONAY
+- AlexIS BRUNEL
 
 ### Les ressources : 
     
@@ -12,30 +14,27 @@
     L'organisation du projet gihub :
     https://github.com/users/AlexisBrunel/projects/1
 
+### Récapitilatif des réussites
 
-Installation de Wazuh	Ok 
-Installation de Elastic	Ok 
-Installation d’agent Wazuh	Ok 
-Installation d’agent Elastic	Ok 
+Installation de Wazuh	                Ok 
+Installation de Elastic                	Ok 
+Installation d’agent Wazuh            	Ok 
+Installation d’agent Elastic	        Ok 
 Automatisation d’installation d’agent	Ok 
-Installation de Splunk	Ok 
-Installation d’agent splunk	Ok 
-Installation d’Open WEC	Ok 
-Installation du GOAD vitualbox	Ok 
-Installation du Goad Proxmox	Ok 
-Attaque sur le GOAD	Ok 
-Détection dans les SIEM(s)	Ok 
-Mise en place d’un firewall 	Ok 
-![image](https://github.com/AlexisBrunel/SAE_Cloud_Cyber/assets/97045305/478a6d4f-1efb-43eb-ab70-8d1dfc83e516)
+Installation de Splunk                	Ok 
+Installation d’agent splunk	            Ok 
+Installation d’Open WEC                	Ok 
+Installation du GOAD vitualbox	        Ok 
+Installation du Goad Proxmox	        Ok 
+Attaque sur le GOAD	                    Ok 
+Détection dans les SIEM(s)             	Ok 
+Mise en place d’un firewall 	        Ok 
 
+###  Points bloquant : 
 
-
-
-
-
-
-
-
+Nous n'avons pas eu assez de temps pour réaliser des tests sur Proxmox malgrès une infrastructure fonctionnelle.
+Nous n'avons pas réussis à comprometre l'adminisrateur du domaine dans le pentest, manque de méthodologie, d'entrainement et de pratqique.
+Difficulté aux niveaux des configurations OPENWEC.
 
 
 
