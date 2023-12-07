@@ -29,25 +29,31 @@ Une fois connecté je modifie l'axès au page d'administration :
 Je spécifie uniquement les réseaux internes à l'accès à l'administrateur (DMZ + GOAD)
 
 Création des objets machines  :
-# Kingslanding   
+### Kingslanding   
 ![Alt text](img/kingslanding.PNG)
 
-Castelblack 
+### Castelblack 
+
 ![Alt text](img/castelblack.PNG)
 
-Winterfell
+### Winterfell
 
 ![Alt text](img/winterfell.PNG)
 
-Merren
+### Merren
+
 ![Alt text](img/merren.PNG)
-Braavos 
+
+### Braavos 
+
 ![Alt text](img/braabos.PNG)
-Voici tous les objets crées : 
+
+Voici tous les objets machine crées  : 
 
 ![Alt text](img/machiengoad.PNG)
 
 Création des objets en rapport avec le port  : 
+
 ### Splunk 
 
 ![Alt text](img/splunkobj.PNG)
