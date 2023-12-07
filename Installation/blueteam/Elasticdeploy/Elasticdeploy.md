@@ -6,6 +6,7 @@
 #### Création d'un fleet server et des outputs 
 
 ![Alt text](img/fleet+output.png)
+
 Récupérer avec les commandes :  
 
     make fgprint 
@@ -59,7 +60,8 @@ Sur les SRV(s):
 ### Configuration de l'intégration de Elastic defend : 
 
 Mise en place du mode Detect 
-![Alt text](img/Detectmode.png) Elasticdeploy.md
+
+![Alt text](img/Detectmode.png) 
 
 
 blocage de la vérification des certificat et hostname par TLS
