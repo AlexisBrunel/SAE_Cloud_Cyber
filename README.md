@@ -30,12 +30,16 @@ Installation d’agent Elastic	        Ok
 
 Automatisation d’installation d’agent	Ok 
 <br/>
+
 Installation de Splunk                	Ok 
 <br/>
+
 Installation d’agent splunk	            Ok 
 <br/>
+
 Installation d’Open WEC                	Ok 
 <br/>
+
 Installation du GOAD vitualbox	        Ok 
 <br/>
 
