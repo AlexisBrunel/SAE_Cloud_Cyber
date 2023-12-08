@@ -107,8 +107,28 @@ Difficulté aux niveaux des configurations OPENWEC.
     - Un bilan des heures 
 
 ## Organisation du projet  : 
-Un trello  : 
-Un project sur github : 
-Des dayly(s) en rapport avec les taches 
+<br>
 
+#### Quantification du travail
+<br>
 
+/!\    Il faut prendre en compte que les étudiants cyber ont eux plus d'heure pour le projet sans compter les abscences ( Ilker abscent 2 jours - 1 jours TP avec Maxime Calves)    /!\
+<br>
+
+![img](Livrables/image_synthese/camembert.png)
+
+<br>
+
+#### Partage du travail
+<br>
+Pour partager les différentes tâches nous avons utilisées un trello et organiser des dailys, pour pouvoir répartir les tâches nous avons utiliser la méthode Kanban ( A faire | En cours | Fini )
+<br>
+Dans un premier temps on a du lister toute les différentes tâches pour quantifier et s'organiser au mieux dans la priorité des différentes tâches ( par exemple commencer par GOAD sur Virtualbox car l'installation était plus rapide ).
+<br>
+Le lien vers le trello : https://trello.com/b/ZjSyheL4/saecybercloud
+<br>
+<br>
+
+#### Les livrables
+<br>
+Tout les livrables sont disponibles sur le dépôts actuel github
