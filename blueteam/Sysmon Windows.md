@@ -5,7 +5,7 @@
 
 <br>
 
-Après avoir télécharger le fichier Sysmon.zip sur le site de Microsoft puis l'avoir décompressé j'ai exécuté la commande :
+Après avoir télécharger le fichier **Sysmon.zip** sur le site de Microsoft puis l'avoir *décompressé* j'ai exécuté la commande :
 ```python
   Sysmon64.exe -i
 ```
@@ -13,6 +13,6 @@ Après avoir télécharger le fichier Sysmon.zip sur le site de Microsoft puis l
 ![Alt text](cmd-sysmon.png)
 <br>
 <br>
-Nous voyons bien des logs dans l'event viewer de la machine :
+#### Nous voyons bien des logs dans l'event viewer de la machine :
 
 ![Alt text](logs-sysmon.png)
