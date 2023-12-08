@@ -16,8 +16,6 @@
 
 Pour pouvoir répondre au cahier des charges nous avons utilisées les matériels suivant : 
 2 PC de la salle pour contenir les différentes VM, un server pour acceuilir proxmox <br>
-Nous avons utilisées les outils tels que :
-Github pour déposer les livrables et Trello pour organiser notre travail
 
 ![img](Livrables/schema_reseaux/schema-reseau.png)
 
