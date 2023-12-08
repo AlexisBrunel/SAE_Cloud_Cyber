@@ -34,3 +34,6 @@ Après avoir téléchargé le binaire sur moodle :
   hayabusa eid-metrics -f logs-evtx
 ```
 
+<br><br> 
+
+![Alt text](img/logs-hayabusa.png)
