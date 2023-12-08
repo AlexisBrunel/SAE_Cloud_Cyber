@@ -129,5 +129,4 @@ Le lien vers le trello : https://trello.com/b/ZjSyheL4/saecybercloud
 <br>
 
 #### Les livrables :
-<br>
 Tout les livrables sont disponibles sur le dépôts actuel github
