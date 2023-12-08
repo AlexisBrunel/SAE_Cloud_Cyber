@@ -3,7 +3,10 @@
 Création d'un compte sur :  www.splunk.com
 
 Récupération de Splunk Entreprise  :
+
+
 ![Alt text](img/tgzsplunk.png)
+
 
 On lance le script d'installation : 
 ![Alt text](img/installsplunk.png)
