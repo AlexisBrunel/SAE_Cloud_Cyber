@@ -4,6 +4,7 @@ Création d'un compte sur :  www.splunk.com
 
 Récupération de Splunk Entreprise  :
 
+<br/>
 
 ![Alt text](img/tgzsplunk.png)
 
