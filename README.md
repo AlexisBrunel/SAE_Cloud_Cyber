@@ -107,10 +107,9 @@ Difficulté aux niveaux des configurations OPENWEC.
     - Un bilan des heures 
 
 ## Organisation du projet  : 
-<br>
 
 #### Quantification du travail :
-<br>
+
 
 /!\    Il faut prendre en compte que les étudiants cyber ont eux plus d'heure pour le projet sans compter les abscences ( Ilker abscent 2 jours - 1 jours TP avec Maxime Calves)    /!\
 <br>
