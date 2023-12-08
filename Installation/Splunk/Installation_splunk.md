@@ -13,6 +13,7 @@ On lance le script d'installation :
 ![Alt text](img/installsplunk.png)
 
 On se connecte via l'adresse http://splunlk:8000
+<br/>
 ![Alt text](img/splunklogin.png)
 
 Voici l'interface d'adminsitratation:
