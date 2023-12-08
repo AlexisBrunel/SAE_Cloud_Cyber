@@ -150,3 +150,27 @@ On rermarque l'utilisation du compte brandon.stark
 
 
 Les règles Mittre utilisé  :T1550.002, T1078.002
+
+
+# Détection sur Splunk 
+
+Voici la détection d'un crackmap exec sur les machines du domaines 
+
+![Alt text](img/detectioncmesplunl.png)
+
+On remarque la source en 10.202.0.130 (Ip du Kali linux)
+On remarque des informations identiques à Wazuh, l'utilisation de NTLM et la connexion en anonyme.
+
+J'utilise les logs Active Directory : 
+
+
+![Alt text](img/Typedelogsursplunk.png)
+
+Je réalise plusieur enum4linux pour énumérer l'AD de manière anonyme.
+
+Aucune détection n'est présente dans le SIEMs
+![Alt text](img/activedirectorynonfonctionnel.png)
+
+Les attaques sont détectés sur Splunk
+
+
