@@ -25,7 +25,7 @@ Après avoir télécharger le fichier **Sysmon.zip** sur le site de Microsoft pu
 
 Après avoir téléchargé le binaire sur moodle : 
 
-```python
+```bash
   git clone https://github.com/Yamato-Security/hayabusa.git --recursive
   sudo cp Téléchargements/hayabusa /usr/local/bin/hayabusa
   sudo chmod +x /usr/local/bin/hayabusa
