@@ -20,7 +20,7 @@ Pour le firewall j'utilise une OVA obtenue en passant les exams Stormshield :
 Voici la page de connexion : 
 
 
-![Alt text](img/ecran de connexion.PNG)
+![Alt text](img/connexion.PNG)
 
 Une fois connecté je modifie l'axès au page d'administration : 
 
