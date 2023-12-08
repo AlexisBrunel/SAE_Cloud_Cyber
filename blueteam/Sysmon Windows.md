@@ -10,9 +10,9 @@ Après avoir télécharger le fichier **Sysmon.zip** sur le site de Microsoft pu
   Sysmon64.exe -i
 ```
 
-![Alt text](cmd-sysmon.png)
+![Alt text](img/cmd-sysmon.png)
 <br>
 <br>
 #### Nous voyons bien des logs dans l'event viewer de la machine :
 
-![Alt text](logs-sysmon.png)
+![Alt text](img/logs-sysmon.png)
