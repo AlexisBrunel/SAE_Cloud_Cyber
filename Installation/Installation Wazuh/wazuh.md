@@ -190,4 +190,4 @@ Nous avons choisis de rajouter des règles de sécurité nommés socfortress :
 
 Nous voyons bien les nouvelles règles dans Wazuh :
 
-
+![Alt text](rules-socfortress.png)
