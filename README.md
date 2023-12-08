@@ -109,7 +109,7 @@ Difficulté aux niveaux des configurations OPENWEC.
 ## Organisation du projet  : 
 <br>
 
-#### Quantification du travail
+#### Quantification du travail :
 <br>
 
 /!\    Il faut prendre en compte que les étudiants cyber ont eux plus d'heure pour le projet sans compter les abscences ( Ilker abscent 2 jours - 1 jours TP avec Maxime Calves)    /!\
@@ -119,7 +119,7 @@ Difficulté aux niveaux des configurations OPENWEC.
 
 <br>
 
-#### Partage du travail
+#### Partage du travail :
 <br>
 Pour partager les différentes tâches nous avons utilisées un trello et organiser des dailys, pour pouvoir répartir les tâches nous avons utiliser la méthode Kanban ( A faire | En cours | Fini )
 <br>
@@ -129,6 +129,6 @@ Le lien vers le trello : https://trello.com/b/ZjSyheL4/saecybercloud
 <br>
 <br>
 
-#### Les livrables
+#### Les livrables :
 <br>
 Tout les livrables sont disponibles sur le dépôts actuel github
