@@ -37,3 +37,10 @@ Je configurer la durée de l'intervalle de collecter des forwarders
 Les agents remontent 
 
 ![Alt text](img/agensplunkj1t.png)
+
+
+On remarque que les agents splunk sont remonté comme actifs dans elastic 
+
+![Alt text](img/splunk.png)
+
+
