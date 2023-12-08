@@ -151,6 +151,7 @@ Cloud :
 
 
 ![img](Livrables/image_synthese/camembert.png)
+![img](Livrables/image_synthese/timeline.png)
 
 <br>
 
@@ -162,6 +163,7 @@ Dans un premier temps on a du lister toute les différentes tâches pour quantif
 Le lien vers le trello : https://trello.com/b/ZjSyheL4/saecybercloud
 <br>
 <br>
+
 
 #### Les livrables :
 Tout les livrables sont disponibles sur le dépôts actuel github
