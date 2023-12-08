@@ -50,3 +50,10 @@ On remarque que les agents splunk sont remonté comme étant des processus actif
 ![Alt text](img/splunk.png)
 
 
+
+Voici un exemple des alertes splunk : 
+
+
+![Alt test](img/splunkwindowssecurity.png)
+
+
