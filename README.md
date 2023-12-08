@@ -29,6 +29,10 @@
 
 ### Récapitilatif des réussites
 
+Tout d'abord nous avons lancer en parralèle GOAD sur virtualbox et proxmox des le premiers jours. Par la suite nous avons installers les différents SIEM et leur agent ( Wazuh, Elastic, OpenWEC, Splunk ).
+L'équipe cyber à alors crée un plan d'attaque du réseaux pour voir le bon fonctionnement de la détection dans les différents SIEM 
+
+
 Installation de Wazuh	                Ok
 <br/>
 
