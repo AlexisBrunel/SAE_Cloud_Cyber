@@ -82,6 +82,7 @@ Difficulté aux niveaux des configurations OPENWEC.
     - Installation Openwec
     - Ansible_agent
     - Goad_Virtualbox
+    -  Installation GOAD Proxmox
     - Elastic agent déploiement 
     - Installation d'un Kali linux pour la redteam
     
