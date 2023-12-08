@@ -79,4 +79,4 @@ Après quelque tentative de connexion sur des sites coréen (visitekorea.or.kr)o
 Nous n'allons pas mettre plus de configuration dans le firewall.
 
 Voici le firewall installé  : 
-![Alt text](img/firewallenfonction.PNG)
+![Alt text](img/firewallenfonction.png)
