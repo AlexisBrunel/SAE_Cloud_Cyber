@@ -1,11 +1,17 @@
 # SAE_Cloud_Cyber
 <br>
 
-Les membres du groupe : <br>
+### Les membres du groupe : <br>
 - Joey GALLIGANI<br>
 - Ilker ONAY<br>
 - AlexIS BRUNEL<br>
 <br>
+
+### Le schéma du réseaux : <br>
+
+![img](./Livrables/Schéma Réseaux/schema-reseau.png)
+
+
 
 ### Les ressources : 
     
