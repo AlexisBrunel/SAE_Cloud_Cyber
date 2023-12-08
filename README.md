@@ -4,7 +4,8 @@
 ### Les membres du groupe : <br>
 - Joey GALLIGANI<br>
 - Ilker ONAY<br>
-- AlexIS BRUNEL<br>
+- Alexis BRUNEL<br>
+
 <br>
 
 
