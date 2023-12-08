@@ -36,4 +36,4 @@ Après avoir téléchargé le binaire sur moodle :
 
 <br><br> 
 
-![Alt text](img/logs-hayabusa.png)
+![Alt text](img/hayabusa-logs.png)
