@@ -9,7 +9,8 @@
 
 ### Le schéma du réseaux : <br>
 
-![1]("Livrables/Schéma Réseaux/schema-reseau.png")
+
+![1](Livrables/schema_reseaux/schema-reseau.png)
 
 
 
