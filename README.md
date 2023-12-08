@@ -11,9 +11,6 @@
 
 ### Le schéma réseaux : 
 
-<br>
-<br>
-
 
 ![img](Livrables/schema_reseaux/schema-reseau.png)
 
