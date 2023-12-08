@@ -47,7 +47,7 @@ Installation d’Open WEC                	Ok
 Installation du GOAD vitualbox	        Ok 
 <br/>
 
-Installation du Goad Proxmox	        Ok 
+Installation du GOAD proxmox	        Ok 
 <br/>
 
 Attaque sur le GOAD	                    Ok 
