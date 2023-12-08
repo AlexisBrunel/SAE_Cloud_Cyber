@@ -29,7 +29,7 @@
 
 ### Récapitilatif des réussites
 
-Tout d'abord nous avons lancer en parralèle GOAD sur virtualbox et proxmox des le premiers jours. Par la suite nous avons installers les différents SIEM et leur agent ( Wazuh, Elastic, OpenWEC, Splunk ).
+ - Tout d'abord nous avons lancer en parralèle GOAD sur virtualbox et proxmox des le premiers jours. Par la suite nous avons installers les différents SIEM et leur agent ( Wazuh, Elastic, OpenWEC, Splunk ).
 L'équipe cyber à alors crée un plan d'attaque du réseaux pour voir le bon fonctionnement de la détection dans les différents SIEM 
 
 
@@ -73,7 +73,7 @@ Mise en place d’un firewall 	        Ok
 
 ###  Points bloquant : 
 
-Nous n'avons pas eu assez de temps pour réaliser des tests sur Proxmox malgrès une infrastructure fonctionnelle.
+ - Nous n'avons pas eu assez de temps pour réaliser des tests sur Proxmox malgrès une infrastructure fonctionnelle.
 Nous n'avons pas réussis à comprometre l'adminisrateur du domaine dans le pentest, manque de méthodologie, d'entrainement et de pratqique.
 Difficulté aux niveaux des configurations OPENWEC.
 
