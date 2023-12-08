@@ -9,7 +9,7 @@
 
 ### Le schéma du réseaux : <br>
 
-![img](./Livrables/Schéma Réseaux/schema-reseau.png)
+![img](Livrables/Schéma Réseaux/schema-reseau.png)
 
 
 
