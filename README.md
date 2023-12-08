@@ -151,6 +151,7 @@ Cloud :
 
 
 ![img](Livrables/image_synthese/camembert.png)
+
 ![img](Livrables/image_synthese/timeline.png)
 
 <br>
