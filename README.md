@@ -78,6 +78,9 @@ Nous n'avons pas réussis à comprometre l'adminisrateur du domaine dans le pent
 Difficulté aux niveaux des configurations OPENWEC.
 
 
+###  Les questions :
+
+ - Lors de l'installation d'Open Wec, un problème était survenue lors de la création de la clé, alors une question à été poser à l'enseignant Mr.Pouchoulon, la réponse à été de définir l'utilisateur dans le fichier /etc/openwec/openwec.conf le même domaine que le DC ou le SRV
 
 
 
