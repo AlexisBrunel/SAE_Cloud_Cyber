@@ -119,7 +119,6 @@ Difficulté aux niveaux des configurations OPENWEC.
 <br>
 
 #### Partage du travail :
-<br>
 Pour partager les différentes tâches nous avons utilisées un trello et organiser des dailys, pour pouvoir répartir les tâches nous avons utiliser la méthode Kanban ( A faire | En cours | Fini )
 <br>
 Dans un premier temps on a du lister toute les différentes tâches pour quantifier et s'organiser au mieux dans la priorité des différentes tâches ( par exemple commencer par GOAD sur Virtualbox car l'installation était plus rapide ).
