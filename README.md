@@ -9,11 +9,12 @@
 
 
 ### Le schéma du réseaux : 
+
 <br>
 <br>
 
 
-![1](Livrables/schema_reseaux/schema-reseau.png)
+![img](Livrables/schema_reseaux/schema-reseau.png)
 
 
 
