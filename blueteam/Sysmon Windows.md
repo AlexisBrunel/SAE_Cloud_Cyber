@@ -16,3 +16,21 @@ Après avoir télécharger le fichier **Sysmon.zip** sur le site de Microsoft pu
 #### Nous voyons bien des logs dans l'event viewer de la machine :
 
 ![Alt text](img/logs-sysmon.png)
+
+<br><br>
+
+# Hayabusa
+
+## Installation et utilisation de hayabusa
+
+Après avoir téléchargé le binaire sur moodle : 
+
+```python
+  git clone https://github.com/Yamato-Security/hayabusa.git --recursive
+  sudo cp Téléchargements/hayabusa /usr/local/bin/hayabusa
+  sudo chmod +x /usr/local/bin/hayabusa
+  cd hayabusa/
+  cp ../Téléchragements/logs-sae.evtx ../hayabusa
+  hayabusa eid-metrics -f logs-evtx
+```
+
