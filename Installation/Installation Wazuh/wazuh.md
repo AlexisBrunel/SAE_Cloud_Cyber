@@ -181,3 +181,13 @@ Fonctionnement de l'agent :
 ![Alt text](agent.png)
 
 Nous avons déployer l'agent de cette manière sur les 3 DC du GOAD !
+
+## Ajout de règles 
+
+Nous avons choisis de rajouter des règles de sécurité nommés socfortress :
+
+    curl -so ~/wazuh_socfortress_rules.sh https://raw.githubusercontent.com/socfortress/Wazuh-Rules/main/wazuh_socfortress_rules.sh && bash ~/wazuh_socfortress_rules.sh
+
+Nous voyons bien les nouvelles règles dans Wazuh :
+
+
