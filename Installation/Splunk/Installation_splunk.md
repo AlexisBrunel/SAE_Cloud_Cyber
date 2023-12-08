@@ -39,7 +39,7 @@ Les agents remontent
 ![Alt text](img/agensplunkj1t.png)
 
 
-On remarque que les agents splunk sont remonté comme actifs dans elastic 
+On remarque que les agents splunk sont remonté comme étant des processus actifs dans elastic
 
 ![Alt text](img/splunk.png)
 
