@@ -89,6 +89,8 @@ Difficulté aux niveaux des configurations OPENWEC.
     
 #### Dossier livrable 
     - Schéma réseau 
+    - Un dossier de sauvegarde
+    - Un bilan des heures 
 
 ## Organisation du projet  : 
 Un trello  : 
