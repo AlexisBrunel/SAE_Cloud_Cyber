@@ -49,6 +49,11 @@ Difficulté aux niveaux des configurations OPENWEC. Manque de temps pour la dét
 ### Notre comparatif des SIEMS 
 Splunk, beacoup d'information remonté, un système d'analyse en temps réel fonctionnel, permet d'avoir un grand nombre d'information sur des détections, un système de filtrage très simple d'utilisation pour identifier certain patterne.
 
+Elastic, beaucoup de facilité de mise en place, un système d'intégration assez simple et complet, malgrès cela nos test ne sont pas très valorisant car les intégrations utilisé ne nous permette pas de comprendre une détection.En effet l'application prévient mais nous ne savons pas pourquoi. Peut être tester avec plus de temps d'autre intégration pour pouvoir poussez les analyses.
+
+Wazuh, une grande surprise, beaucoup de fonctionnalité, un système d'analyse simple pour les filtres mais compliqué pour l'affichage en temps réel. Cette application remonte un grand nombre d'information est simple d'insallation. Pour l'ajout de détection et de protection il possède un système d'insertion de régles très simple(testé avec les règles Soc Fortress). 
+
+Nous recommandons  Elastic pour la supervision des hôtes d'un point de vue fonctionnel, car certaine intégration permette d'avoir des tableaux de bord intuitif. Pour la sécurité Wazuh semble la meilleur sollution, les détections et les l'application est simple d'utilisation. Toutefois nous n'avons pas tester la verion payante de splunk.
 
 ###  Les questions :
 
