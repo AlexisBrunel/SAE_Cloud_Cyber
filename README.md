@@ -44,7 +44,9 @@ Nous avons mis en place un firewall Stormshield en fin de SAE, le but permettant
 
  - Nous n'avons pas eu assez de temps pour réaliser des tests sur Proxmox malgrès une infrastructure fonctionnelle.
 Nous n'avons pas réussis à comprometre l'adminisrateur du domaine dans le pentest, manque de méthodologie, d'entrainement et de pratqique.
-Difficulté aux niveaux des configurations OPENWEC.
+Difficulté aux niveaux des configurations OPENWEC. Manque de temps pour la détection des attaques sur elastic, ne n'avons pas réussi à identifier d'information sur l'attaque, il nous est uniquement possible de voir la règles qui se déclenche sur à l'attaque.
+
+### Notre comparatif des SIEMS 
 
 
 ###  Les questions :
