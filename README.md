@@ -138,3 +138,4 @@ Le lien vers le trello : https://trello.com/b/ZjSyheL4/saecybercloud
 
 #### Les livrables :
 Tout les livrables sont disponibles sur le github : https://github.com/AlexisBrunel/SAE_Cloud_Cyber/edit/main/README.md (en public)
+https://github.com/users/AlexisBrunel/projects/1
