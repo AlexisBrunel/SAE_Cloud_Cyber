@@ -34,8 +34,10 @@ Pour pouvoir répondre au cahier des charges nous avons utilisées les matériel
 
 ### Récapitilatif des réussites
 
- - Tout d'abord nous avons lancer en parralèle GOAD sur virtualbox et proxmox des le premiers jours. Par la suite nous avons installé les différents SIEM et leur agent ( Wazuh, Elastic, OpenWEC, Splunk). Nous avons utilisé ansible pour automatisé l'installation des agents ( Wazuh, Elastic).
-L'équipe cyber à alors crée un plan d'attaque du réseaux pour voir le bon fonctionnement de la détection dans les différents SIEM.
+ - Tout d'abord nous avons lancer en parralèle GOAD sur virtualbox et proxmox des le premiers jours. Par la suite nous avons installé les différents SIEM et leur agent ( Wazuh, Elastic, OpenWEC, Splunk). Nous avons utilisé ansible pour automatisé l'installation des agents ( Wazuh, Elastic). Sur Wazuh nous avons mis en place des règles de détections en rapport avec le SOC fortress. Nous avons réaliser une chasse au "virus" grâce à l'outils Hayabusa sur des logs Sysmon. Malheuresement les logs récupérer ne sont pas représentatif étant donné qu'il corresponde à 30 minutes d'activié d'un WINDOWS.
+L'équipe cyber à alors crée un plan d'attaque du réseaux pour voir le bon fonctionnement de la détection d'attaque dans les différents SIEM. Nous avons réaliser différentes attaques sur plusieurs service du SI (Kerberos, LDAP, smb et réseau ).
+La détection des attaques était assez compliqué, nous n'arrivons pas à déduire le fonctionnement précis de l'attaque. Malgrès l'utilisation d'autre outil tels que wireshark, nous ne pouvons pas comprendre le fonctionnement d'un crackmapexec, il est impossible d'expliquer grâce au SIEM en quoi consite l'attaque. Nous pouvons avoir un bon aperçu de ce qu'il se passe mais pas d'en déduire qu'il s'agit d'un crackmapexec. Nous avons réaliser une attaque de BloodHound en premier ce qu'y nous a permis d'avoir des informations sur les utilisateurs et une cartographie des royaumes kerberos, des domaines et sous domaines.
+Cette attaque dans notre cas ne nous semble pas très performante à cause d'un accès en annonyme à l'active directory.
 Nous avons mis en place un firewall Stormshield en fin de SAE, le but permettant de contrôler les flux sortant du GOAD vers internet et la DMZ.
 
 ###  Points bloquant : 
@@ -49,10 +51,7 @@ Difficulté aux niveaux des configurations OPENWEC.
 
  - Lors de l'installation d'Open Wec, un problème était survenue lors de la création de la clé, alors une question à été poser à l'enseignant Mr.Pouchoulon, la réponse à été de définir l'utilisateur dans le fichier /etc/openwec/openwec.conf le même domaine que le DC ou le SRV
 
-
-
-
-### Les annexes : 
+## Les annexes : 
     - Un dossier Installation 
     - Un dossier Red Team 
     - Un dossier Blue Team 
@@ -65,12 +64,13 @@ Difficulté aux niveaux des configurations OPENWEC.
     - Installation Openwec
     - Ansible_agent
     - Goad_Virtualbox
-    -  Installation GOAD Proxmox
+    - Installation GOAD Proxmox
     - Elastic agent déploiement 
     - Installation d'un Kali linux pour la redteam
     
 #### Dossier Blue Team 
     - Détection des menances dans les siems 
+    - Chasse au virus
 #### Dossier Red Team 
     - Dossier Bloodhound
     - Attaque sur le goad
@@ -135,4 +135,4 @@ Le lien vers le trello : https://trello.com/b/ZjSyheL4/saecybercloud
 
 
 #### Les livrables :
-Tout les livrables sont disponibles sur le dépôts actuel github
+Tout les livrables sont disponibles sur le github : https://github.com/AlexisBrunel/SAE_Cloud_Cyber/edit/main/README.md (en public)
