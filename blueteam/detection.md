@@ -179,6 +179,9 @@ Les attaques sont détectés sur Splunk.
 
 <br>
 
-#### Afin
+#### Afin d'analyser les logs des attaques nous allons expliquer la démarche que nous avons suivis pour une alerte de sécurité remontée par un agents Elatsic.
 
+Voici l'alerte en détail :
+
+![Alt text](img/elastic-log-attaque.png)
 
