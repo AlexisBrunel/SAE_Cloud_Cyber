@@ -185,3 +185,11 @@ Voici l'alerte en détail :
 
 ![Alt text](img/elastic-log-attaque.png)
 
+Tout d'abord nous pouvons nous servir de l'identification de l'attaque via MITRE ATT&CK qui ici indique une attaque d'escalade de privilèges (TA0004) avec une manipulation de token d'accès (T1134) et ensuite une création de processus avec ce token (T1134.002). Avec ces informations nous pouvons nous rendre sur le site [MITRE ATT&CK](https://attack.mitre.org/) afin de connaitre plus de détails à propos de l'attaque, ses objectifs et sa source.
+
+<br> 
+
+Ensuite pour comprendre le déroulement de l'attaque et pouvoir corrigé la faille si possible nous allons nous servir de **"Alert reason"** :
+
+<br> 
+
