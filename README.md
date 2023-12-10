@@ -47,6 +47,7 @@ Nous n'avons pas réussis à comprometre l'adminisrateur du domaine dans le pent
 Difficulté aux niveaux des configurations OPENWEC. Manque de temps pour la détection des attaques sur elastic, ne n'avons pas réussi à identifier d'information sur l'attaque, il nous est uniquement possible de voir la règles qui se déclenche sur à l'attaque.
 
 ### Notre comparatif des SIEMS 
+Splunk, beacoup d'information remonté, un système d'analyse en temps réel fonctionnel, permet d'avoir un grand nombre d'information sur des détections, un système de filtrage très simple d'utilisation pour identifier certain patterne.
 
 
 ###  Les questions :
