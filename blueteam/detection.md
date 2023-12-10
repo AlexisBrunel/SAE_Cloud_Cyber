@@ -195,5 +195,3 @@ Ensuite pour comprendre le déroulement de l'attaque et pouvoir corriger la fail
 
 Nous apprenons ici qu'un processus a été créé avec le script WmiPrvSE.exe avec l'utilisateur SYSTEM (droit administrateur local) sur l'utilisateur "castelblack". Cela a créé une alerte de haut niveau.
 Nous apprenons aussi que le script se situe dans *C:\Windows\system32\wbem\wmiprvse.exe*, nous voyons aussi le token manipulé et le numéro du peocessus (7192).
-<br>
-Cette alerte est remontée après une attqaue 
