@@ -34,47 +34,9 @@ Pour pouvoir répondre au cahier des charges nous avons utilisées les matériel
 
 ### Récapitilatif des réussites
 
- - Tout d'abord nous avons lancer en parralèle GOAD sur virtualbox et proxmox des le premiers jours. Par la suite nous avons installers les différents SIEM et leur agent ( Wazuh, Elastic, OpenWEC, Splunk ).
-L'équipe cyber à alors crée un plan d'attaque du réseaux pour voir le bon fonctionnement de la détection dans les différents SIEM 
-
-
-Installation de Wazuh	                Ok
-<br/>
-
-Installation de Elastic                	Ok 
-<br/>
-
-Installation d’agent Wazuh            	Ok 
-<br/>
-
-Installation d’agent Elastic	        Ok 
-<br/>
-
-Automatisation d’installation d’agent	Ok 
-<br/>
-
-Installation de Splunk                	Ok 
-<br/>
-
-Installation d’agent splunk	            Ok 
-<br/>
-
-Installation d’Open WEC                	Ok 
-<br/>
-
-Installation du GOAD vitualbox	        Ok 
-<br/>
-
-Installation du GOAD proxmox	        Ok 
-<br/>
-
-Attaque sur le GOAD	                    Ok 
-<br/>
-
-Détection dans les SIEM(s)             	Ok 
-<br/>
-
-Mise en place d’un firewall 	        Ok 
+ - Tout d'abord nous avons lancer en parralèle GOAD sur virtualbox et proxmox des le premiers jours. Par la suite nous avons installé les différents SIEM et leur agent ( Wazuh, Elastic, OpenWEC, Splunk). Nous avons utilisé ansible pour automatisé l'installation des agents ( Wazuh, Elastic).
+L'équipe cyber à alors crée un plan d'attaque du réseaux pour voir le bon fonctionnement de la détection dans les différents SIEM.
+Nous avons mis en place un firewall Stormshield en fin de SAE, le but permettant de contrôler les flux sortant du GOAD vers internet et la DMZ.
 
 ###  Points bloquant : 
 
@@ -137,6 +99,7 @@ Cyber  :
     - 15 heures pour l'installation du siem splunk et des agents 
     - 20 heures pour l'attaque du GOAD
     - 20 heures pour la détection des attaques
+    - 2 heures pour rattraper le TP Kerberos SSH
 
 
 
