@@ -189,7 +189,11 @@ Tout d'abord nous pouvons nous servir de l'identification de l'attaque via MITRE
 
 <br> 
 
-Ensuite pour comprendre le déroulement de l'attaque et pouvoir corrigé la faille si possible nous allons nous servir de **"Alert reason"** :
+Ensuite pour comprendre le déroulement de l'attaque et pouvoir corriger la faille si possible nous allons nous servir de **"Alert reason"** :
 
 <br> 
 
+Nous apprenons ici qu'un processus a été créé avec le script WmiPrvSE.exe avec l'utilisateur SYSTEM (droit administrateur local) sur l'utilisateur "castelblack". Cela a créé une alerte de haut niveau.
+Nous apprenons aussi que le script se situe dans *C:\Windows\system32\wbem\wmiprvse.exe*, nous voyons aussi le token manipulé et le numéro du peocessus (7192).
+<br>
+Cette alerte est remontée après une attqaue 
