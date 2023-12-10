@@ -1,12 +1,14 @@
 # Installation d'un firewall sur le GOAD :  
 
-Un membre du groupe est certifié stormshield et est ameme de configurer un firewall pour protéger le GOAD depuis l'extérieure.
-Comme nous l'avons montrer sur le schéma réseau nous avons placer le firewall en sortie du GOAD entre la DMZ et et le réseau local.
+Un membre du groupe est certifié Stormshield et est amème de configurer un firewall pour protéger le GOAD depuis l'extérieur.
+Comme nous l'avons montré sur le schéma réseau nous avons placé le firewall en sortie du GOAD entre la DMZ et et le réseau local.
 
 
 
 La matrice des flux 
+
 <br/>
+
 | Source/Dest | 9200   | 8220   | 9997   | 80     | 443    | 53     |
 |-------------|--------|--------|--------|--------|--------|--------|
 | Internet    | x      | x      | x      | Allow  | Allow  | x      |
@@ -22,7 +24,7 @@ Voici la page de connexion :
 
 ![Alt text](img/connexion.PNG)
 
-Une fois connecté je modifie l'axès au page d'administration : 
+Une fois connecté je modifie l'accès au page d'administration : 
 
 ![Alt text](img/acc%C3%A8saupaged'aminsitration.PNG)
 
@@ -48,7 +50,7 @@ Création des objets machines  :
 
 ![Alt text](img/braabos.PNG)
 
-Voici tous les objets machine crées  : 
+Voici tous les objets machine créés  : 
 
 ![Alt text](img/machiengoad.PNG)
 
@@ -65,18 +67,18 @@ Création des objets en rapport avec le port  :
 ![Alt text](img/elastic.PNG)
 
 
-Une fois tous les objets machines créer nous allons mettre en place les règles NAT et de filtrage pour autorisé le traffic souhauté :
+Une fois tous les objets machines créés, nous allons mettre en place les règles NAT et de filtrage pour autoriser le trafic souhaité :
 
 ![Alt text](img/FiltteringGOAD.PNG)
 
 
-Nous avons accepter les requêtes du réseaux interne à la DMZ  sur les ports des SIEMS, nous avons autorisé l'accées à internet en HTTP et HTTPS (avec déchiffrement SSL). Nous avons bloquer les sites coréen (pour flex sur le Firewall)
+Nous avons accepter les requêtes du réseau interne à la DMZ  sur les ports des SIEMS, nous avons autorisé l'accès à Internet en HTTP et HTTPS (avec déchiffrement SSL). Nous avons bloqué les sites coréens (pour flex sur le Firewall)
 
-Après quelque tentative de connexion sur des sites coréen (visitekorea.or.kr)on remarque que la règle s'active  : 
+Après quelques tentatives de connexion sur des sites coréens (visitekorea.or.kr) on remarque que la règle s'active  : 
 
 ![Alt text](img/blokcorr%C3%A9e.PNG)
 
-Nous n'allons pas mettre plus de configuration dans le firewall.
+Nous n'allons pas mettre plus de configurations dans le firewall.
 
 Voici le firewall installé  : 
 ![Alt text](img/firewallenfonction.png)
