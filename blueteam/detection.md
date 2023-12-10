@@ -1,14 +1,14 @@
 # Détection sur Wazuh :
 ![Alt text](img/premierscanagressif.png)
 
-Après le scan un remarque 9 alertes.
+Après le scan on remarque 9 alertes.
 
 ![Alt text](<img/résultat dupremierscan .png>)
-Je supprime les faux postifis 
+Je supprime les faux positifs 
 
 ![Alt text](img/filtresortdesfauxpostifis.png)
 
-Je spécifie les 2 rule.id qui me géne car rapidement le server se remplie de connexion windows inutiles
+Je spécifie les 2 rule.id qui me géne car rapidement le serveur se remplie de connexion Windows inutiles
 
 
 ![Alt text](img/fullrequest.png)
@@ -18,17 +18,17 @@ Sur le scan
 
     nmap -A <ip>
 
-On remarque des informations SQL ,je suppose que pour générer cette réponse il doit causer des erreurs sql
+On remarque des informations SQL ,je suppose que pour générer cette réponse il doit causer des erreurs SQL
 ![Alt text](img/mysqlscan1.png)
-Sur le siem,on remarque une erreur sql qui correspond à la bonne heure.
+Sur le SIEM, on remarque une erreur SQL qui correspond à la bonne heure.
 ![Alt text](img/sourceattaque1.png)
 
 
-Je relance un scan namp -A pour regarder les changements
+Je relance un scan "namp" -A pour regarder les changements.
 
 ![s](img/secondnmap-a.png)
 
-Il créer une erreur windows
+Il créé une erreur windows
 
 
 Je lance des scans smb 
@@ -76,17 +76,17 @@ Les adversaires qui utilisent des ransomwares ou des attaques similaires peuvent
 
 ![Alt text](img/compr%C3%A9hension.png)
 
-On remarque que le packet utilisé pour l'authentification est NTML, il est posstible que le packet crackmapexec utilise une sorte de brute force NTLM pour afficher des information sur le système. Il doit surrement utiliser les réponse de l'utilisateur.
+On remarque que le packet utilisé pour l'authentification est NTML, il est posstible que le packet crackmapexec utilise une sorte de brute force NTLM pour afficher des informations sur le système. Il doit surrement utiliser les réponse de l'utilisateur.
 
 
-Je passe par wireshark pour mieux comprendre : 
+Je passe par Wireshark pour mieux comprendre : 
 
 ![Alt text](img/wireshark.png)
 
 
-Voici les paquets emis par ma machine au déclendchement de ma carte réseaux
+Voici les paquets émis par ma machine au déclenchement de ma carte réseau
 
-Je remarque du TCP, J'essaye de suivre les flux TCP 
+Je remarque du TCP, j'essaye de suivre les flux TCP 
 
 
 
@@ -95,11 +95,11 @@ Je remarque du TCP, J'essaye de suivre les flux TCP
 
 Je remarque qu'il parle de smb (en rapport avec l'énumération du partage smb ) et de NTLM (0.12. Un version ? )
 Hypothése du fonctionnement de l'attaque 
-Je remarque toute fois que la machine (kali linux ) initie une connexion TCP SYN, le ack l'autorise mais une fois autorisé, il essaye de produire une modification smb qui ne passe pas et la machien castelblack(.176) reset la connexion.
+Je remarque toute fois que la machine (kali linux ) initie une connexion TCP SYN, le ACK l'autorise mais une fois autorisé, il essaye de produire une modification smb qui ne passe pas et la machine castelblack(.176) réinitialise la connexion.
 
 ![Alt text](img/sessionwire.png)
 
-Contrairement à l'hypostèse on peut retracer les actions qui sont effectuées en rapport avec les partage SMB sont présente.
+Contrairement à l'hypostèse on peut retracer les actions qui sont effectuées en rapport avec les partages SMB sont présentes.
 
 ![Alt text](img/smbecahnge.png)
 
@@ -111,9 +111,9 @@ On remarque une tentative de session avec de la communication NTLM pour les part
 On remarque la précense du NTLM.
 
 
-La capture wireshark est sur github : cme.pcacng
+La capture Wireshark est sur github : cme.pcacng
 
-Les filtres utilisés sont mon IP souce,l'Ip de dest et les séquence TCP  :10.202.0.130 
+Les filtres utilisés sont mon IP souce,l'Ip de destination et les séquence TCP: 10.202.0.130 
 ip.src==10.202.0.130
 ip.dest=10.202.0.176
 tcp.stream.eq 5
@@ -123,14 +123,14 @@ Une autre attaque  :  Kerberoasting
  
 
 
-J'utilise les identifiants récupéré dans la partie pentesdugoad pour faire mon attaque 
+J'utilise les identifiants récupérés dans la partie pentesdugoad pour faire mon attaque 
 
     cme ldap 10.202.0.150 -u brandon.stark -p 'iseedeadpeople' -d north.sevenkingdoms.local --kerberoasting KERBEROASTING
 
 
 ![Alt text](img/kerberoasting.png)
 
-Je récupére les hashs du compte sql_svc et jon.snow grâce à cette attaque, dans mon cas il sont dans le fichier hash.
+Je récupére les hashs du compte sql_svc et jon.snow grâce à cette attaque, dans mon cas ils sont dans le fichier hash.
 
 Nous allons détecter l'attaque sur Wazuh : 
 
@@ -154,7 +154,7 @@ Les règles Mittre utilisé  :T1550.002, T1078.002
 
 # Détection sur Splunk 
 
-Voici la détection d'un crackmap exec sur les machines du domaines 
+Voici la détection d'un crackmap exec sur les machines du domaine.
 
 ![Alt text](img/detectioncmesplunl.png)
 
@@ -171,6 +171,14 @@ Je réalise plusieur enum4linux pour énumérer l'AD de manière anonyme.
 Aucune détection n'est présente dans le SIEMs
 ![Alt text](img/activedirectorynonfonctionnel.png)
 
-Les attaques sont détectés sur Splunk
+Les attaques sont détectés sur Splunk.
+
+<br><br>
+
+# Detection des attaques avec Elatsicsearch :
+
+<br>
+
+#### Afin
 
 
