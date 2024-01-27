@@ -5,3 +5,5 @@
 # Lancement du script pour déployer les DC(s)
 
     ansible-playbook -i inventory.ini DC_install_wazuh.yml
+
+
